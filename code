@@ -1,0 +1,1 @@
+iqtree -s Gale_all.aln -m MFP -bb 1000
