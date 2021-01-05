@@ -1,2 +1,3 @@
 iqtree -s Gale_all.aln -m MFP -bb 1000
 makeblastdb -in Os.fa -dbtype prot -title Os_protein -parse_seqids -out Os_pro_db
+python -m jcvi.graphics.karyotype seqids layout
