@@ -1,0 +1,2 @@
+ bedtools getfasta -fi SBPH_chromosome.fa -fo nl4328.gene -bed nl4328.bed
+ exonerate --score 100 --model protein2genome nl4328_pro.fa --showalignment FALSE --ryo ">%qi_(%tab-%tae)_%ti\n%tcs\n" --forcegtag TRUE --showvulgar FALSE --showtargetgff TRUE nl4328_new.gene >  nl4328new_cds_exonerate 
